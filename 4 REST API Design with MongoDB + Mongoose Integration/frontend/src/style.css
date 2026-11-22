@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f3f6fa; color: #172033; font: 16px/1.5 system-ui, sans-serif; }
+.container { width: min(820px, 92%); margin: 40px auto; }
+h1 { margin-bottom: 4px; }
+h2 { font-size: 1.15rem; margin-top: 0; }
+.intro { color: #586579; margin-top: 0; }
+.panel { background: white; border: 1px solid #dfe5ec; border-radius: 10px; padding: 22px; margin: 20px 0; box-shadow: 0 3px 12px #12203a0a; }
+form { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; align-items: end; }
+label { display: grid; gap: 5px; font-size: .9rem; font-weight: 600; }
+input { width: 100%; padding: 10px; border: 1px solid #cbd4df; border-radius: 6px; font: inherit; }
+button { border: 0; border-radius: 6px; background: #1d5fd0; color: white; padding: 9px 13px; font: inherit; cursor: pointer; }
+.secondary { background: #64748b; }
+.danger { background: #c0392b; }
+.actions { display: flex; gap: 8px; }
+.message { color: #1d5fd0; margin-bottom: 0; }
+.student-list { list-style: none; margin: 0; padding: 0; }
+.student-list li { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0; border-top: 1px solid #e8edf2; }
+.student-list span { display: block; color: #64748b; font-size: .9rem; }
+@media (max-width: 520px) { .student-list li { align-items: flex-start; flex-direction: column; } }
